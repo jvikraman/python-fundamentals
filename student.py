@@ -11,7 +11,7 @@ class Student:
         self.student_id = student_id
         students.append(self)
 
-    # custom ovverride to return valid class name in english
+    # custom override to return valid class name in english
     def __str__(self):
         return "Student " + self.name
 
