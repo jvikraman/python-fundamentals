@@ -1,10 +1,10 @@
-#Python basics
+# Python basics
 
-#Use the # character for single-line comments.
+# Use the # character for single-line comments.
 
-#Like other languages, there's no multi-line comment feature out of the box in python. A common workaround to that is using " character 3x
+# Like other languages, there's no multi-line comment feature out of the box in python. A common workaround to that is using " character 3x
 
-#here's an example of a multi-line comment
+# here's an example of a multi-line comment
 """
    most of the IDEs treat whatever
    typed in here as a multi-line comment
@@ -12,7 +12,7 @@
    it's just going to sit there like a comment!
 """
 
-#Integers & Floats
+# Integers & Floats
 """
     number = 42
     pi = 3.14159
@@ -21,8 +21,8 @@
     float(number) == 42.0
 """
 
-#Strings
-#'Hello Python' == "Hello Python" == """Hello Python"""
+# Strings
+# 'Hello Python' == "Hello Python" == """Hello Python"""
 """
     "hello".capitalize() == "Hello"
     "hello".replace("e", "a") == "hallo"
@@ -31,7 +31,7 @@
     "lets,split,this".split(",") == ["lets", "split", "this"]
 """
 
-#String formatting
+# String formatting
 """
     fruit = "apple"
     person = "doctor"
@@ -45,7 +45,7 @@
    
 """
 
-#Boolean & None data types
+# Boolean & None data types
 """
     is_valid = True  #pay attention to caps T
     file_exists = False 
@@ -56,7 +56,7 @@
     found_treasure = None #similar to null in other languages
 """
 
-#If statements
+# If statements
 """
     #pay attention to indentations instead of curly  braces for code blocks & also the character : at the
     end of if & else blocks
@@ -108,7 +108,7 @@
     "bigger" if a > b else "smaller"
 """
 
-#Lists
+# Lists
 """
     #list indexes start with 0
     employee_names = [] # an empty list
@@ -137,7 +137,7 @@
     cars[1:-1] == ["BMW", "Jaguar"] #ignores first & last element in the list
 """
 
-#Loops
+# Loops
 """
     #iterating using a for loop
     fruits = ["Apple", "Orange", "Peach"]
@@ -189,7 +189,7 @@
         print("Hello World")
 """
 
-#Dictionaries
+# Dictionaries
 """
     #in other words key/value pairs
     student = {
@@ -219,7 +219,7 @@
     del student["name"] - to delete a key/value pair
 """
 
-#Exceptions
+# Exceptions
 """
     student = {
         "name": "Mark",
@@ -261,7 +261,7 @@
     #except: Exception - however, remember that's going to give less meaningful info about the errors!
 """
 
-#Other Data Types
+# Other Data Types
 """
     complex
     long #removed in python 3.x
